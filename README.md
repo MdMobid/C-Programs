@@ -1,6 +1,0 @@
-# C Programs
-
-- [Print "Hello World"](https://github.com/MdMobid/C-Programs/blob/main/Folder/Code1.c)
-- [Take input of 2 integers and print their sum](https://github.com/MdMobid/C-Programs/blob/main/Folder/Code2.c)
-- [Area of Square](https://github.com/MdMobid/C-Programs/blob/main/Folder/Code3.c)
-- [Area of Circle](https://github.com/MdMobid/C-Programs/blob/main/Folder/Code4.c)
