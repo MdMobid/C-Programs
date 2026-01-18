@@ -7,9 +7,9 @@ int main(){
    printf("Enter a six-digit number: ");
    scanf("%d", &num);
 
-   last_digit = num % 10; // Extracting last digit
-   first_digit = num / 100000; // Extracting first digit
-   sum = first_digit + last_digit; // Calculating sum
+   last_digit = num % 10;
+   first_digit = num / 100000;
+   sum = first_digit + last_digit;
    
    printf("Sum of first and last digit is: %d\n", sum);
    return 0;

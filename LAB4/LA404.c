@@ -7,10 +7,10 @@ int main(){
    printf("Enter a three-digit number: ");
    scanf("%d", &num);
 
-   digit1 = num % 10;          // Extracting the last digit
-   digit2 = (num / 10) % 10;   // Extracting the middle digit
-   digit3 = num / 100;         // Extracting the first digit
-
+   digit1 = num % 10;
+   digit2 = (num / 10) % 10;
+   digit3 = num / 100;
+   
    sum = digit1 + digit2 + digit3;
    printf("The sum of the digits is: %d\n", sum);
    

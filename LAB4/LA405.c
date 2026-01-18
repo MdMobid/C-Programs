@@ -9,26 +9,26 @@ Also determine how much profit he made or loss he incurred.
 #include<stdio.h>
 int main(){
    
-   float buying_price, market_price, discount, selling_price, profit_loss, percentage;
+   float bp, mp, discount, sp, profit_loss, percent;
 
    printf("Enter the buying price: ");
-   scanf("%f", &buying_price);
+   scanf("%f", &bp);
    printf("Enter the market price: ");
-   scanf("%f", &market_price);
+   scanf("%f", &mp);
    printf("Enter the discount (in %%): ");
    scanf("%f", &discount);
 
-   selling_price = market_price - (market_price * discount / 100);
+   sp = mp - (mp * discount / 100);
    
-   if(selling_price > buying_price){
-       profit_loss = selling_price - buying_price;
-       percentage = (profit_loss / buying_price) * 100;
-       printf("Seller made a profit of %f%%\n", percentage);
+   if(sp > bp){
+       profit_loss = sp - bp;
+       percent = (profit_loss / bp) * 100;
+       printf("Seller made a profit of %f%%\n", percent);
    }
-   else if(selling_price < buying_price){
-       profit_loss = buying_price - selling_price;
-       percentage = (profit_loss / buying_price) * 100;
-       printf("Seller made a loss of %f%%\n", percentage);
+   else if(sp < bp){
+       profit_loss = bp - sp;
+       percent = (profit_loss / bp) * 100;
+       printf("Seller made a loss of %f%%\n", percent);
    }
    else{
        printf("No profit, No loss.\n");

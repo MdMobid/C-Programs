@@ -1,7 +1,7 @@
 // WAP to find the roots of a quadratic equation ax2+bx+c=0 using if-else statement.
 
 #include <stdio.h>
-#include <math.h> // for sqrt()
+#include <math.h>
 
 int main() {
     float a, b, c, discriminant, root1, root2, realPart, imagPart;
@@ -17,20 +17,17 @@ int main() {
 
     discriminant = (b * b) - (4 * a * c);
 
-    // Condition for real and different roots
     if (discriminant > 0) {
         root1 = (-b + sqrt(discriminant)) / (2 * a);
         root2 = (-b - sqrt(discriminant)) / (2 * a);
         printf("The Roots are real & unequal.\n");
         printf("Roots are %.2f and %.2f\n", root1, root2);
     }
-    // Condition for real and equal roots
     else if (discriminant == 0) {
         root1 = root2 = -b / (2 * a);
         printf("The roots are real and equal.\n");
         printf("Roots are %.2f both.\n", root1);
     }
-    // If roots are not real (Imaginary)
     else {
         realPart = -b / (2 * a);
         imagPart = sqrt(-discriminant) / (2 * a);

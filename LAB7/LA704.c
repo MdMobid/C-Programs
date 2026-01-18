@@ -2,14 +2,14 @@
 
 #include <stdio.h>
 int main() {
-    int numbers[10];
+    int num;
     int sum = 0;
     float average;
     
     printf("Enter 10 numbers:\n");
     for(int i = 0; i < 10; i++) {
-        scanf("%d", &numbers[i]);
-        sum += numbers[i];
+        scanf("%d", &num);
+        sum += num;
     }
     
     average = sum / 10.0;
