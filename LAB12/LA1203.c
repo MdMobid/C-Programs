@@ -1,4 +1,4 @@
-// WAP to display the array elements in ascending order.
+// WAP to print all the even and odd numbers in an 1-D array
 
 #include <stdio.h>
 int main(){
@@ -12,18 +12,15 @@ int main(){
         scanf("%d", &arr[i]);
     }
 
+    printf("Even numbers:\n");
     for (int i=0; i<len; i++){
-        for (int j=0; j<len; j++){
-            if (arr[j] > arr[j+1]){
-                int temp = arr[j];
-                arr[j] = arr[j+1];
-                arr[j+1] = temp;
-            }
-        }
+        if (arr[i] % 2 == 0)
+        printf("%d ", arr[i]);
     }
 
-    printf("The Numbers in ascending order are:\n");
+    printf("\nOdd numbers:\n");
     for (int i=0; i<len; i++){
+        if (arr[i] % 2 != 0)
         printf("%d ", arr[i]);
     }
     return 0;
