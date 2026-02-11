@@ -66,12 +66,19 @@ k. LAB11 = 22-01-26
    k5. LA1105.c -> insert an element in an 1-D array
 
 l. LAB12 = 29-01-26
-   l1. LA1201.c -> 
-   l2. LA1202.c -> 
-   l3. LA1203.c -> 
-   l4. LA1204.c -> 
-   l5. LA1205.c -> 
+   l1. LA1201.c -> display array elements in ascending order
+   l2. LA1202.c -> print all unique elements of an array
+   l3. LA1203.c -> print all even even and odd of an array
+   l4. LA1204.c -> reverse the array elements
+   l5. LA1205.c -> find a subarray that adds to given sum
 
+
+m. LAB13 = 29-01-26
+   m1. LA1301.c -> store city, day and temp in a 2D array
+   m2. LA1302.c -> sum of 2 matrices (2x2)
+   m3. LA1303.c -> multiply 2 matrices and display
+   m4. LA1304.c -> sum of elements of matrix in its upper triangle
+   m5. LA1305.c -> check 2 matrices are equal or not
 
 Type 'q' to exit the list view, then enter your code.
 ============================================================
