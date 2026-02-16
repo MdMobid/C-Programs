@@ -17,7 +17,7 @@ int main(){
    num1 = num2;
    num2 = temp;
    
-   printf("Before Swapping \n num1 = %d \n num2 = %d \n", num1, num2);
+   printf("After Swapping \n num1 = %d \n num2 = %d \n", num1, num2);
    
    return 0;
 }
