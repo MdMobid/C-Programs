@@ -72,7 +72,6 @@ l. LAB12 (29-01-26)
    l4. LA1204.c -> reverse the array elements
    l5. LA1205.c -> find a subarray that adds to given sum
 
-
 m. LAB13 & LAB14 (02-02-26)
    m1. LA1301.c -> store city, day and temp in a 2D array
    m2. LA1302.c -> sum of 2 matrices (2x2)
@@ -160,6 +159,13 @@ while true; do
         l3) gedit LAB12/LA1203.c ;;
         l4) gedit LAB12/LA1204.c ;;
         l5) gedit LAB12/LA1205.c ;;
+
+        # LAB 13 & 14
+        m1) gedit LAB13/LA1301.c ;;
+        m2) gedit LAB13/LA1302.c ;;
+        m3) gedit LAB13/LA1303.c ;;
+        m4) gedit LAB13/LA1304.c ;;
+        m5) gedit LAB13/LA1305.c ;;
 
         exit) rm $CATALOGUE; exit ;;
         *) echo "Invalid selection: Type 'list' for help or 'exit' to quit." ;;
