@@ -79,6 +79,14 @@ m. LAB13 & LAB14 (02-02-26)
    m4. LA1304.c -> sum of elements of matrix in its upper triangle
    m5. LA1305.c -> check 2 matrices are equal or not
 
+n. LAB15 (13-02-26)
+   n1. LA1501.c -> addition of two integers using functions
+   n2. LA1502.c -> find factorial of a number using functions
+   n3. LA1503.c -> value of nth term of fibonacci series using functions
+   n4. LA1504.c -> check prime or not using function
+   n5. LA1505.c -> swapping of two integers using functions
+
+
 Type 'q' to exit the list view, then enter your code.
 ============================================================
 EOF
@@ -161,11 +169,18 @@ while true; do
         l5) gedit LAB12/LA1205.c ;;
 
         # LAB 13 & 14
-        m1) gedit LAB13/LA1301.c ;;
-        m2) gedit LAB13/LA1302.c ;;
-        m3) gedit LAB13/LA1303.c ;;
-        m4) gedit LAB13/LA1304.c ;;
-        m5) gedit LAB13/LA1305.c ;;
+        m1) gedit LAB13-14/LA1301.c ;;
+        m2) gedit LAB13-14/LA1302.c ;;
+        m3) gedit LAB13-14/LA1303.c ;;
+        m4) gedit LAB13-14/LA1304.c ;;
+        m5) gedit LAB13-14/LA1305.c ;;
+
+        # LAB 15
+        n1) gedit LAB15/LA1501.c ;;
+        n2) gedit LAB15/LA1502.c ;;
+        n3) gedit LAB15/LA1503.c ;;
+        n4) gedit LAB15/LA1504.c ;;
+        n5) gedit LAB15/LA1505.c ;;
 
         exit) rm $CATALOGUE; exit ;;
         *) echo "Invalid selection: Type 'list' for help or 'exit' to quit." ;;
