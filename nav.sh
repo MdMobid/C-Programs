@@ -72,29 +72,33 @@ cat << EOF > $CATALOGUE
    1204. LA1204.c -> reverse the array elements
    1205. LA1205.c -> find a subarray that adds to given sum
 
-13. LAB13 & LAB14 (02-02-26)
+13. LAB13 & LAB14 (02-02-26 & 12-02-26)
    1301. LA1301.c -> store city, day and temp in a 2D array
    1302. LA1302.c -> sum of 2 matrices (2x2)
    1303. LA1303.c -> multiply 2 matrices and display
    1304. LA1304.c -> sum of elements of matrix in its upper triangle
    1305. LA1305.c -> check 2 matrices are equal or not
 
-15. LAB15 (13-02-26)
+15. LAB15 (16-02-26)
    1501. LA1501.c -> addition of two integers using functions
    1502. LA1502.c -> find factorial of a number using functions
    1503. LA1503.c -> value of nth term of fibonacci series using functions
    1504. LA1504.c -> check prime or not using function
    1505. LA1505.c -> swapping of two integers using functions
 
-16. LAB16 ()
-   1601. LA1601.c -> find largest of three numbers using functions
-   1602. LA1602.c -> find roots of quadratic using functions
-   1603. LA1603.c -> sum of n natural numbers using recursion
-   1604. LA1604.c -> reverse a number using recursion
-   1605. LA1605.c -> check palindrome using recursion
+16. LAB16 (19-02-26)
+   1601. LA1601.c -> sum of elements of 1D Array using functions
+   1602. LA1602.c -> sort the elements of 1D Array in ascending order
+   1603. LA1603.c -> find the largest and smallest in 1D Array
+   1604. LA1604.c -> find the second largest in 1D Array
+   1605. LA1605.c -> swap the first and last element in 1D Array
 
-17. LAB17 (27-02-26)
-
+17. LAB17 (23-02-26)
+   1701. LA1701.c -> sum of elements of 2D Array using functions
+   1702. LA1702.c -> sum of main diagonals of 2D Array
+   1703. LA1703.c -> find the largest and smallest of 2D Array
+   1704. LA1704.c -> find the sum of prime numbers of 2D Array
+   1705. LA1705.c -> addition of 2D Arrays using a 3rd matrix
 
 Type 'q' to exit the list view, then enter your code.
 ============================================================
