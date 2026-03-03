@@ -100,6 +100,13 @@ cat << EOF > $CATALOGUE
    1704. LA1704.c -> find the sum of prime numbers of 2D Array
    1705. LA1705.c -> addition of 2D Arrays using a 3rd matrix
 
+18. LAB18 ()
+   1801. LA1801.c -> factorial of a number using recursion
+   1802. LA1802.c -> GCD of two numbers using recursion
+   1803. LA1803.c -> sum of digits upto single digit using recursion
+   1804. LA1804.c -> sum of all digits using recursion
+   1805. LA1805.c -> maximum element of an integer array by using recursion
+
 Type 'q' to exit the list view, then enter your code.
 ============================================================
 EOF
