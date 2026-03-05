@@ -15,7 +15,5 @@ unsigned long long fact(int n){
     if (n == 0){
         return 1;
     }
-    unsigned long long factNm1 = fact(n-1);
-    unsigned long long factN = factNm1 * n;
-    return factN;
+    return fact(n-1) * n;
 }
