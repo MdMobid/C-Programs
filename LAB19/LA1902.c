@@ -1,3 +1,4 @@
+// Write a program to extract last character of every word present in a sentence
 
 #include <stdio.h>
 
