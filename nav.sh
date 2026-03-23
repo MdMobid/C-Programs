@@ -100,13 +100,44 @@ cat << EOF > $CATALOGUE
    1704. LA1704.c -> find the sum of prime numbers of 2D Array
    1705. LA1705.c -> addition of 2D Arrays using a 3rd matrix
 
-18. LAB18 ()
+18. LAB18 (09-03-26)
    1801. LA1801.c -> factorial of a number using recursion
    1802. LA1802.c -> GCD of two numbers using recursion
    1803. LA1803.c -> sum of digits upto single digit using recursion
    1804. LA1804.c -> sum of all digits using recursion
    1805. LA1805.c -> maximum element of an integer array by using recursion
 
+19. LAB19 & LAB20 (12-03-26)
+   1901. LA1901.c -> find length of a string (with/without library function)
+   1902. LA1902.c -> extract last character of every word in a sentence
+   1903. LA1903.c -> concatenate two strings without library function
+   1904. LA1904.c -> check whether a string is palindrome or not
+   1905. LA1905.c -> extract a substring from a given string
+   1906. LA1906.c -> find the first largest word in a given sentence
+   1907. LA1907.c -> count vowels, consonants, new lines and characters in a string
+   1908. LA1908.c -> count frequency of each character in a string
+   1909. LA1909.c -> replace occurrence of a character with its previous 3rd character
+   1910. LA1910.c -> remove leading and trailing spaces from a string
+   1911. LA1911.c -> replace multiple occurrences of a word with a single occurrence
+
+20. LAB21 & LAB22 & LAB23 (16-03-26)
+   2101. LA2101.c -> multiply two numbers using pointers
+   2102. LA2102.c -> swap two numbers using call by reference
+   2103. LA2103.c -> sum of all elements in an array using pointer
+   2104. LA2104.c -> print a string in reverse using a pointer
+   2105. LA2105.c -> count vowels and consonants in a string using pointer
+   2106. LA2106.c -> sort an array using pointer
+   2107. LA2107.c -> sum of all elements using dynamic memory allocation
+   2108. LA2108.c -> largest element in an array using dynamic memory allocation
+   2109. LA2109.c -> allocate array using calloc, insert, resize with realloc
+
+21. LAB24 (19-03-26)
+   2401. LA2401.c -> store and display one student's information using structure
+   2402. LA2402.c -> store n students' info and display with total marks using array of structure
+   2403. LA2403.c -> add two distances (km-meter) using structures
+   2404. LA2404.c -> add two times (hr-min-sec) by passing structure to a function
+   2405. LA2405.c -> store n employees' data and calculate gross pay using dynamic memory
+4
 Type 'q' to exit the list view, then enter your code.
 ============================================================
 EOF
@@ -215,6 +246,59 @@ while true; do
         1703) gedit LAB17/LA1703.c ;;
         1704) gedit LAB17/LA1704.c ;;
         1705) gedit LAB17/LA1705.c ;;
+
+        # LAB 18
+        1801) gedit LAB18/LA1801.c ;;
+        1802) gedit LAB18/LA1802.c ;;
+        1803) gedit LAB18/LA1803.c ;;
+        1804) gedit LAB18/LA1804.c ;;
+        1805) gedit LAB18/LA1805.c ;;
+
+        # LAB 19
+        1901) gedit LAB19/LA1901.c ;;
+        1902) gedit LAB19/LA1902.c ;;
+        1903) gedit LAB19/LA1903.c ;;
+        1904) gedit LAB19/LA1904.c ;;
+        1905) gedit LAB19/LA1905.c ;;
+        1906) gedit LAB19/LA1906.c ;;
+        1907) gedit LAB19/LA1907.c ;;
+        1908) gedit LAB19/LA1908.c ;;
+        1909) gedit LAB19/LA1909.c ;;
+        1910) gedit LAB19/LA1910.c ;;
+        1911) gedit LAB19/LA1911.c ;;
+
+        # LAB 20
+        2001) gedit LAB20/LA2001.c ;;
+        2002) gedit LAB20/LA2002.c ;;
+        2003) gedit LAB20/LA2003.c ;;
+        2004) gedit LAB20/LA2004.c ;;
+        2005) gedit LAB20/LA2005.c ;;
+        2006) gedit LAB20/LA2006.c ;;
+        2007) gedit LAB20/LA2007.c ;;
+        2008) gedit LAB20/LA2008.c ;;
+        2009) gedit LAB20/LA2009.c ;;
+
+        # LAB 21
+        2101) gedit LAB21/LA2101.c ;;
+        2102) gedit LAB21/LA2102.c ;;
+        2103) gedit LAB21/LA2103.c ;;
+        2104) gedit LAB21/LA2104.c ;;
+        2105) gedit LAB21/LA2105.c ;;
+
+        # LAB 22
+        2201) gedit LAB22/LA2201.c ;;
+        2202) gedit LAB22/LA2202.c ;;
+        2203) gedit LAB22/LA2203.c ;;
+
+        # LAB 23
+        2301) gedit LAB23/LA2301.c ;;
+        2302) gedit LAB23/LA2302.c ;;
+        2303) gedit LAB23/LA2303.c ;;
+        2304) gedit LAB23/LA2304.c ;;
+        2305) gedit LAB23/LA2305.c ;;
+        2306) gedit LAB23/LA2306.c ;;
+        2307) gedit LAB23/LA2307.c ;;
+        2308) gedit LAB23/LA2308.c ;;
 
         exit) rm $CATALOGUE; exit ;;
         *) echo "Invalid selection: Type 'list' for help or 'exit' to quit." ;;
