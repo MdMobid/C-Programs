@@ -137,7 +137,7 @@ cat << EOF > $CATALOGUE
    2403. LA2403.c -> add two distances (km-meter) using structures
    2404. LA2404.c -> add two times (hr-min-sec) by passing structure to a function
    2405. LA2405.c -> store n employees' data and calculate gross pay using dynamic memory
-4
+
 Type 'q' to exit the list view, then enter your code.
 ============================================================
 EOF
