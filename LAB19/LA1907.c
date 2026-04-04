@@ -11,7 +11,7 @@ int main(){
 
     while(s[i] != '\0'){
         while(s[i] == ' ') w++;
-        if ((s[i]>'a' && s[i]<'z') || (s[i]>'A' && s[i]<'Z')){
+        if ((s[i]>='a' && s[i]<='z') || (s[i]>='A' && s[i]<='Z')){
             tot++;
             if (s[i] == 'a' || s[i] == 'e' || s[i] == 'i' || s[i] == 'o' || s[i] == 'u' ||
                 s[i] == 'A' || s[i] == 'E' || s[i] == 'I' || s[i] == 'O' || s[i] == 'U')
