@@ -2,36 +2,34 @@
 // Assume that words are separated by spaces
 
 #include <stdio.h>
+#include <string.h>
 
 int main() {
-    char str[100];
-    int i = 0, currLen = 0, maxLen = 0, maxStart = 0;
+    char str[200], largest[100], current[100];
+    int i = 0, j = 0, maxLen=0, currlen=0;
 
     printf("Enter sentence: ");
     fgets(str, 100, stdin);
 
-    while (str[i] != '\0' && str[i] != '\n' && str[i] != '.') {
-        if (str[i] != ' ') {
-            currLen++;
-        } else {
-            if (currLen > maxLen) {
-                maxLen = currLen;
-                maxStart = i - currLen;
+    while (str[i] != '\0') {
+
+        if (str[i] != ' ' && str[i] != '\n') {
+            current[j] = str[i];
+            j++;
+        }
+        
+        if (str[i] == ' ' || str[i+1] == '\0'){
+            current[j] = '\0';
+            currlen = strlen(current);
+            if (currlen > maxLen){
+                maxLen = currlen;
+                strcpy(largest, current);
             }
-            currLen = 0;
+            j = 0;
         }
         i++;
     }
 
-    if (currLen > maxLen) {
-        maxLen = currLen;
-        maxStart = i - currLen;
-    }
-
-    printf("First largest word: ");
-    for (int j = 0; j < maxLen; j++) {
-        printf("%c", str[maxStart + j]);
-    }
-
+    printf("Longest word is: %s\n", largest);
     return 0;
 }
