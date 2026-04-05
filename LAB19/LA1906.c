@@ -18,7 +18,7 @@ int main() {
             j++;
         }
         
-        if (str[i] == ' ' || str[i+1] == '\0'){
+        if (str[i] == ' ' || str[i] == '\n' || str[i+1] == '\0'){
             current[j] = '\0';
             currlen = strlen(current);
             if (currlen > maxLen){
