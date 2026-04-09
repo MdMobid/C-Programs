@@ -138,6 +138,11 @@ cat << EOF > $CATALOGUE
    2404. LA2404.c -> add two times (hr-min-sec) by passing structure to a function
    2405. LA2405.c -> store n employees' data and calculate gross pay using dynamic memory
 
+22. LAB25 (23-03-26)
+   2501. LA2501.c -> one by one & All together display of stored values in union
+   2502. LA2502.c -> add, subtract, multiply and divide of two complex numbers using structures
+   2503. LA2503.c -> Employee Gross Calculation using structures
+
 Type 'q' to exit the list view, then enter your code.
 ============================================================
 EOF
